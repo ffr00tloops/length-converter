@@ -50,6 +50,10 @@ switch($unit) {
         $mMetres = $value * 1609.344 . " Metres";
         $mKM = $value * 1.609344 . " Kilometres";
         $result = "<h1>$mYards</h1><h1>$mMetres</h1><h1>$mKM</h1>";
+    case "centimetre":
+        $cmInches = $value * 0.39370 . " Inches";
+        $result = $cmInches;
+        break;
     default:
         break;
 }
