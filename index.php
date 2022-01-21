@@ -50,9 +50,9 @@ switch($unit) {
         $mMetres = $value * 1609.344 . " Metres";
         $mKM = $value * 1.609344 . " Kilometres";
         $result = "<h1>$mYards</h1><h1>$mMetres</h1><h1>$mKM</h1>";
-    case "centimetre":
-        $cmInches = $value * 0.39370 . " Inches";
-        $result = $cmInches;
+    case "millimetre":
+        $mmInches = $value * 0.39370 . " Inches";
+        $result = $mmInches;
         break;
     default:
         break;
@@ -114,7 +114,7 @@ switch($unit) {
                     <option value="chain">Chain</option>
                     <option value="furlong">Furlong</option>
                     <option value="mile">Mile</option>
-                    <option value="millimmetre">Millimetre</option>
+                    <option value="millimetre">Millimetre</option>
 
                 </select>
 
